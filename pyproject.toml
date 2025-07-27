@@ -1,0 +1,17 @@
+[project]
+name = "gtfs-data-pipeline"
+version = "0.0.1"
+description = ""
+authors = [
+    {name = "Berna",email = "federicobernardini98@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "apache-airflow (==3.0.3)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
